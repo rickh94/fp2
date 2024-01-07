@@ -28,8 +28,8 @@ export const PatternCard: Component<{
         />
       </Dialog.Trigger>
       <Portal>
-        <Dialog.Backdrop class="overlay fixed inset-0 bg-fuchsia-200 bg-opacity-60 backdrop-blur" />
-        <Dialog.Positioner class="fixed inset-0 z-10 overflow-y-auto">
+        <Dialog.Backdrop class="overlay fixed inset-0 z-20 bg-fuchsia-200 bg-opacity-60 backdrop-blur" />
+        <Dialog.Positioner class="fixed inset-0 z-30 overflow-y-auto">
           <div class="flex min-h-full w-screen items-end justify-center p-4 text-center sm:items-center sm:p-0">
             <Dialog.Content class="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl sm:my-8 sm:w-full sm:max-w-lg sm:p-6">
               <div class="relative z-50 flex w-full items-center justify-between">
